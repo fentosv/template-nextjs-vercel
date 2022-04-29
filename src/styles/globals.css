@@ -29,7 +29,13 @@ a:active {
   color: inherit;
 }
 
-#__next {}
+/* If we want little content pages ocuppy the 100% height */
+html,
+body,
+#__next {
+  height: 100%;
+}
+
 
 .body {
   display: flex;
