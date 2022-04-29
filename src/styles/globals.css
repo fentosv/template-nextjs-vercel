@@ -255,11 +255,6 @@ html::-webkit-scrollbar-thumb:vertical {
     transform: rotate(-45deg) translate(-1px, 0px);
   }
 
-  .navbar {
-    border: none;
-    padding-bottom: 20px;
-  }
-
   .navbar-tabs {
 
     display: flex;
@@ -290,6 +285,7 @@ html::-webkit-scrollbar-thumb:vertical {
     opacity: 1;
     transition: opacity 1s linear;
     pointer-events: auto;
+    padding-bottom: 20px;
   }
 
   .navbar-tabs .active {
