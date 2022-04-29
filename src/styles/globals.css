@@ -263,6 +263,8 @@ html::-webkit-scrollbar-thumb:vertical {
   .navbar-tabs {
 
     display: flex;
+    width: 100%;
+
     flex-direction: column;
     text-align: center;
     pointer-events: none;
